@@ -41,6 +41,9 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 872415232
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2018-12-01
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
